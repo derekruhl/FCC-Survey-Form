@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+  </head>
+  <body>
+    <h1 id="title">Titulo</h1>
+    <p id='description'>This is my survey. Please fill out....plz</p>
+    <form id='survey-form'>
+      <fieldset>
+      <label id='name-label'>Name <input id='name' type='text' placeholder="name plz" required /></label>
+      <label id='email-label'>Email<input id='email' type='email' placeholder='email plz' required></input></label>
+      <label id='number-label'>Number<input id='number' type='number' min='12' max='100' placeholder='number plz' required></input></label>
+        <select id='dropdown'>
+          <option>OP1</option>
+          <option>OP2</option>   
+    </fieldset>
+
+    <fieldset>
+      <label><input type='radio' name='pickers' value='pick me'/>pick me!</label>
+      <label><input type='radio' name='pickers' value='no, pick me'/>NO, pick me!</label>
+    </fieldset>
+
+    <fieldset>
+       <label><input type='checkbox' value='1st choice' />waluigi number 1!!</label>
+       <label><input type='checkbox' value='2nd choice' />luigi number 2</label>
+       <label><input type='checkbox' value='3rd choice' />new phone, who dis?</label>
+    </fieldset>
+    <fieldset>
+      <label><textarea placeholder='Please include why we should choose you'></textarea></label>
+    </fieldset>
+
+    <fieldset>
+      <input type='submit' id='submit'/>  
+    </fieldset>
+    </form>
+  </body>
